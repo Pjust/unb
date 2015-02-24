@@ -1,0 +1,19 @@
+{
+  "name": "unbu",
+  "version": "0.0.0",
+  "authors": [
+    "Peter Justesen <pjust@justelund.dk>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.3"
+  }
+}
