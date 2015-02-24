@@ -6,7 +6,7 @@
   <link rel="stylesheet" type="text/css" href="{{ elixir('build/css/app.css') }}">
 </head>
 	<body>
-		<h1>United Buyers</h1>
+		<h1>United Buyers - abc</h1>
 		<p></p>
 	</body>
 </html>
