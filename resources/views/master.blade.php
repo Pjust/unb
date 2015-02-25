@@ -5,6 +5,7 @@
   <title>United Buyers</title>
   <link rel="stylesheet" type="text/css" href="{{ elixir('css/app.css') }}">
   <script src="js/app.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <nav class="navbar navbar-default">
   <div class="container-fluid">
