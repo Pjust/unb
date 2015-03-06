@@ -21,10 +21,10 @@
 
 </div>
 
-<div class="row">
-  <div class="col-md-4">Start Pris:</div>
-  <div class="col-md-4">Pris Nu:</div>
-  <div class="col-md-4">Salg Slutter Om:</div>
+<div class="row" style="padding:10px 0 0 0; ">
+  <div class="col-md-4 smallbox">Start Pris:</div>
+  <div class="col-md-4 smallbox">Pris Nu:</div>
+  <div class="col-md-4 smallbox">Salg Slutter Om:</div>
 </div>
 
 @stop
