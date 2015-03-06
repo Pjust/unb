@@ -1,5 +1,5 @@
 @extends('master')
 
 @section('content')
-	home page
+	<div class="redmongol"></div>
 @stop
