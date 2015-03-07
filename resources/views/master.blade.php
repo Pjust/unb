@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>United Buyers</title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,400' rel='stylesheet' type='text/css'>
   <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
   <script src="js/app.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -40,7 +41,6 @@
 	<body>
 		<div class="container">
 			@yield('content')
-
 		<div>
 	</body>
 </html>

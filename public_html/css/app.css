@@ -4825,5 +4825,18 @@ body {
 
 .smallbox {
   height: 100px;
-  background-color: #FFF;
+  background-color: #FFF; }
+
+[class*="col-"] {
+  background-clip: padding-box;
+  border: 2px solid transparent; }
+
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0; }
+
+.shadow {
   box-shadow: 0px 0px 5px #888888; }
+
+html * {
+  font-family: 'Open Sans', sans-serif; }
