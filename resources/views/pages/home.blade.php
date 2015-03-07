@@ -39,15 +39,25 @@
         <div class="col-sm-3">
           <h2 style="font-weight: 200">Resterende Tid</h2>
             <div class="smallbox shadow">
-
+              <div style="width: 100%; height: 100%; padding-top:25px;" id="defaultCountdown"></div>
             </div>
         </div>
          <div class="col-sm-3">
           <h2 style="font-weight: 200">Antal Køb</h2>
             <div class="smallbox shadow">
-
             </div>
         </div>
     </div>
+<script type="text/javascript">
 
+  var newYear = new Date(); 
+newYear = new Date(newYear.getFullYear() + 1, 1 - 1, 1); 
+$('#defaultCountdown').countdown({until: newYear}); 
+ 
+$('#removeCountdown').click(function() { 
+    var destroy = $(this).text() === 'Remove'; 
+    $(this).text(destroy ? 'Re-attach' : 'Remove'); 
+    $('#defaultCountdown').countdown(destroy ? 'destroy' : {until: newYear}); 
+});
+</script>
 @stop

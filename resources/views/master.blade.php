@@ -7,6 +7,9 @@
   <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
   <script src="js/app.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="countdown/jquery.countdown.css">
+  <script type="text/javascript" src="countdown/jquery.countdown.js"></script>
+   <script type="text/javascript" src="countdown/jquery.countdown-da.js"></script>
 </head>
 
 <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
@@ -44,3 +47,12 @@
 		<div>
 	</body>
 </html>
+
+<script type="text/javascript">
+$(function () {
+  var austDay = new Date();
+  austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);
+  $('#defaultCountdown').countdown.regional['da']({until: austDay});
+  $('#year').text(austDay.getFullYear());
+});
+</script>
