@@ -7,10 +7,14 @@ body {
 .smallbox{
 	height:100px; 
 	background-color:#FFF; 
-
 }
 
-[class*="col-"] {
+.medbox{
+  height:300px; 
+  background-color:#FFF; 
+}
+
+.inviborder {
     background-clip: padding-box;
     border: 2px solid transparent;
 }
@@ -24,6 +28,27 @@ body {
 	
 	box-shadow: 0px 0px 5px #888888;
 }
+
 html * {
 	font-family: 'Open Sans', sans-serif;
 }
+
+//* SPECIAL FONT *//
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(YanoneKaffeesatz-Bold.otf);
+}
+
+.highlight{
+  font-family: myFirstFont;
+    font-size: 3.438em;
+    text-align:center;
+    margin-top:50px;
+}
+
+
+.highlight-1 {
+  color:green;
+  font-family:myFirstFOnt;    
+} 

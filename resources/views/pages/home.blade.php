@@ -2,6 +2,7 @@
 
 @section('content')
 
+{{-- Top Sale --}}
 <div class="row" style=" box-shadow: 0px 0px 5px #888888; background:#FFF;">
 
   <div class="col-md-6">
@@ -21,43 +22,113 @@
 
 </div>
 
+{{-- Top Sale Attachements --}}
+
  <div class="row no-gutter">
 
-        <div class="col-sm-3">
+        <div class="col-sm-3 inviborder">
           <h2 style="font-weight: 200">Start Pris</h2>
             <div class="smallbox shadow">
 
             </div>
         </div>
 
-        <div class="col-sm-3">
+        <div class="col-sm-3 inviborder">
           <h2 style="font-weight: 200">Pris Nu</h2>
             <div class="smallbox shadow">
               
             </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 inviborder">
           <h2 style="font-weight: 200">Resterende Tid</h2>
             <div class="smallbox shadow">
               <div style="width: 100%; height: 100%; padding-top:25px;" id="defaultCountdown"></div>
             </div>
         </div>
-         <div class="col-sm-3">
+         <div class="col-sm-3 inviborder">
           <h2 style="font-weight: 200">Antal Køb</h2>
             <div class="smallbox shadow">
+
             </div>
         </div>
-    </div>
+  </div>
+
+{{-- Other Sales --}}
+
+<div class="row">
+  <p class="highlight">HER ER DE ANDRE <span class="highlight-1">VARER</span> PA TILBUD</p>
+</div>
+
+
+
+ <div class="row no-gutter">
+
+        <div class="col-sm-3 inviborder">
+          <h2 style="font-weight: 200">Weber Grill</h2>
+            <div class=" medbox shadow">
+              <img src="{{ asset('/images/weber.jpg') }}" class="img-responsive" >
+            </div>
+        </div>
+
+        <div class="col-sm-3 inviborder">
+          <h2 style="font-weight: 200">Sonos Højtaler</h2>
+            <div class="medbox shadow">
+              <img src="{{ asset('/images/sonos.jpg') }}" class="img-responsive" style="padding-top:50px" >
+            </div>
+        </div>
+
+        <div class="col-sm-3 inviborder">
+          <h2 style="font-weight: 200">RayBan Solbriller</h2>
+            <div class="medbox shadow">
+               <img src="{{ asset('/images/rayban.jpg') }}" class="img-responsive" style="padding-top:50px"  >
+            </div>
+        </div>
+
+         <div class="col-sm-3 inviborder">
+          <h2 style="font-weight: 200">Id Mudvax</h2>
+            <div class="medbox shadow">
+              <img src="{{ asset('/images/ID.jpg') }}" class="img-responsive"  >
+            </div>
+        </div>
+  </div>
+
+  <div class="row no-gutter">
+
+        <div class="col-sm-3 inviborder">
+          <h2 style="font-weight: 200">Weber Grill</h2>
+            <div class=" medbox shadow">
+              <img src="{{ asset('/images/weber.jpg') }}" class="img-responsive" >
+            </div>
+        </div>
+
+        <div class="col-sm-3 inviborder">
+          <h2 style="font-weight: 200">Sonos Højtaler</h2>
+            <div class="medbox shadow">
+              <img src="{{ asset('/images/sonos.jpg') }}" class="img-responsive" style="padding-top:50px" >
+            </div>
+        </div>
+
+        <div class="col-sm-3 inviborder">
+          <h2 style="font-weight: 200">RayBan Solbriller</h2>
+            <div class="medbox shadow">
+               <img src="{{ asset('/images/rayban.jpg') }}" class="img-responsive" style="padding-top:50px"  >
+            </div>
+        </div>
+
+         <div class="col-sm-3 inviborder">
+          <h2 style="font-weight: 200">Id Mudvax</h2>
+            <div class="medbox shadow">
+              <img src="{{ asset('/images/ID.jpg') }}" class="img-responsive"  >
+            </div>
+        </div>
+  </div>
+
+
 <script type="text/javascript">
 
   var newYear = new Date(); 
 newYear = new Date(newYear.getFullYear() + 1, 1 - 1, 1); 
 $('#defaultCountdown').countdown({until: newYear}); 
- 
-$('#removeCountdown').click(function() { 
-    var destroy = $(this).text() === 'Remove'; 
-    $(this).text(destroy ? 'Re-attach' : 'Remove'); 
-    $('#defaultCountdown').countdown(destroy ? 'destroy' : {until: newYear}); 
-});
+
 </script>
 @stop
