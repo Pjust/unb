@@ -1,19 +1,15 @@
-
-
 <!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <title>jQuery Countdown</title>
-<link rel="stylesheet" href="countdown/jquery.countdown.css">
+<link rel="stylesheet" href="/countdown/jquery.countdown.css">
 <style type="text/css">
-body > iframe { display: none; }
-
 #defaultCountdown { width: 240px; height: 45px; }
 </style>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="countdown/jquery.plugin.js"></script>
-<script src="countdown/jquery.countdown.js"></script>
+<script src="/countdown/jquery.plugin.js"></script>
+<script src="/countdown/jquery.countdown.js"></script>
 <script>
 $(function () {
 	var austDay = new Date();
@@ -32,14 +28,5 @@ $(function () {
 <p>For more detail see the <a href="http://keith-wood.name/countdownRef.html">documentation reference</a> page.</p>
 <p>Counting down to 26 January <span id="year">2014</span>.</p>
 <div id="defaultCountdown"></div>
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-4715900-1");
-pageTracker._initData();
-pageTracker._trackPageview();
-</script>
 </body>
 </html>
