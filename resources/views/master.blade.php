@@ -12,6 +12,7 @@
   <script type="text/javascript" src="countdown/jquery.countdown.js"></script>
   <script type="text/javascript" src="countdown/jquery.countdown-da.js"></script>
   <script type="text/javascript" src="countdown/jquery.countdown.min.js"></script>
+   <script type="text/javascript" src="countdown/jquery.plugin.js"></script>
 </head>
 
 <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
