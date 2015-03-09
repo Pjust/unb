@@ -10,7 +10,7 @@
 </style>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script type="text/javascript" src="countdown/jquery.countdown.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="countdown/jquery.plugin.js">
 $(function () {
   var austDay = new Date();
   austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);
