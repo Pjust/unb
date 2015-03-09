@@ -59,8 +59,6 @@
   <p class="highlight">HER ER DE ANDRE <span class="highlight-1">VARER</span> PA TILBUD</p>
 </div>
 
-
-
  <div class="row no-gutter">
 
         <div class="col-sm-3 inviborder">
@@ -122,13 +120,4 @@
             </div>
         </div>
   </div>
-
-
-<script type="text/javascript">
-
-  var newYear = new Date(); 
-newYear = new Date(newYear.getFullYear() + 1, 1 - 1, 1); 
-$('#defaultCountdown').countdown({until: newYear}); 
-
-</script>
 @stop
