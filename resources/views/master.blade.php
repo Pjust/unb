@@ -7,9 +7,11 @@
   <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
   <script src="js/app.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <link rel="stylesheet" href="countdown/jquery.countdown.css">
   <script type="text/javascript" src="countdown/jquery.countdown.js"></script>
-   <script type="text/javascript" src="countdown/jquery.countdown-da.js"></script>
+  <script type="text/javascript" src="countdown/jquery.countdown-da.js"></script>
+  <script type="text/javascript" src="countdown/jquery.countdown.min.js"></script>
 </head>
 
 <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
