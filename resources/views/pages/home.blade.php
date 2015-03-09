@@ -66,12 +66,18 @@
             <div class=" medbox shadow">
               <img src="{{ asset('/images/weber.jpg') }}" class="img-responsive" >
             </div>
+             <div class="smallbox shadow" style="margin-top:10px;">
+                <div style="width: 100%; height: 100%; padding-top:25px;" id="defaultCountdown-1"></div>
+            </div>
         </div>
 
         <div class="col-sm-3 inviborder">
           <h2 style="font-weight: 200">Sonos Højtaler</h2>
             <div class="medbox shadow">
               <img src="{{ asset('/images/sonos.jpg') }}" class="img-responsive" style="padding-top:50px" >
+            </div>
+            <div class="smallbox shadow" style="margin-top:10px;">
+                <div style="width: 100%; height: 100%; padding-top:25px;" id="defaultCountdown-2"></div>
             </div>
         </div>
 
@@ -80,12 +86,18 @@
             <div class="medbox shadow">
                <img src="{{ asset('/images/rayban.jpg') }}" class="img-responsive" style="padding-top:50px"  >
             </div>
+             <div class="smallbox shadow" style="margin-top:10px;">
+                <div style="width: 100%; height: 100%; padding-top:25px;" id="defaultCountdown-3"></div>
+            </div>
         </div>
 
          <div class="col-sm-3 inviborder">
           <h2 style="font-weight: 200">Id Mudvax</h2>
             <div class="medbox shadow">
               <img src="{{ asset('/images/ID.jpg') }}" class="img-responsive"  >
+            </div>
+             <div class="smallbox shadow" style="margin-top:10px;">
+                <div style="width: 100%; height: 100%; padding-top:25px;" id="defaultCountdown-4"></div>
             </div>
         </div>
   </div>

@@ -59,6 +59,10 @@ $(function () {
   var austDay = new Date();
   austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);
   $('#defaultCountdown').countdown({until: austDay});
+  $('#defaultCountdown-1').countdown({until: austDay});
+  $('#defaultCountdown-2').countdown({until: austDay});
+  $('#defaultCountdown-3').countdown({until: austDay});
+  $('#defaultCountdown-4').countdown({until: austDay});
   $('#year').text(austDay.getFullYear());
 });
 </script>
