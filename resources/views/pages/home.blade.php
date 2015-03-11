@@ -42,7 +42,7 @@
         <div class="col-sm-3 inviborder">
           <h2 style="font-weight: 200">Resterende Tid</h2>
             <div class="smallbox shadow">
-              <div style="width: 100%; height: 100%; padding-top:25px;" id="defaultCountdown"></div>
+              <div style="width: 100%; height: 100%; " id="defaultCountdown"></div>
             </div>
         </div>
          <div class="col-sm-3 inviborder">
@@ -56,7 +56,7 @@
 {{-- Other Sales --}}
 
 <div class="row">
-  <p class="highlight">HER ER DE ANDRE <span class="highlight-1">VARER</span> PA TILBUD</p>
+  <p class="highlight">AKTIVE <span class="highlight-1">VARER</span> </p>
 </div>
 
  <div class="row no-gutter">
@@ -67,7 +67,7 @@
               <img src="{{ asset('/images/weber.jpg') }}" class="img-responsive" >
             </div>
              <div class="smallbox shadow" style="margin-top:10px;">
-                <div style="width: 100%; height: 100%; padding-top:25px;" id="defaultCountdown-1"></div>
+                <div style="width: 100%; height: 100%;" id="defaultCountdown-1"></div>
             </div>
         </div>
 
@@ -77,7 +77,7 @@
               <img src="{{ asset('/images/sonos.jpg') }}" class="img-responsive" style="padding-top:50px" >
             </div>
             <div class="smallbox shadow" style="margin-top:10px;">
-                <div style="width: 100%; height: 100%; padding-top:25px;" id="defaultCountdown-2"></div>
+                <div style="width: 100%; height: 100%;" id="defaultCountdown-2"></div>
             </div>
         </div>
 
@@ -87,7 +87,7 @@
                <img src="{{ asset('/images/rayban.jpg') }}" class="img-responsive" style="padding-top:50px"  >
             </div>
              <div class="smallbox shadow" style="margin-top:10px;">
-                <div style="width: 100%; height: 100%; padding-top:25px;" id="defaultCountdown-3"></div>
+                <div style="width: 100%; height: 100%;" id="defaultCountdown-3"></div>
             </div>
         </div>
 
@@ -97,10 +97,14 @@
               <img src="{{ asset('/images/ID.jpg') }}" class="img-responsive"  >
             </div>
              <div class="smallbox shadow" style="margin-top:10px;">
-                <div style="width: 100%; height: 100%; padding-top:25px;" id="defaultCountdown-4"></div>
+                <div style="width: 100%; height: 100%;" id="defaultCountdown-4"></div>
             </div>
         </div>
   </div>
+
+  <div class="row">
+  <p class="highlight">KOMMENDE <span class="highlight-1">VARER</span> </p>
+</div>
 
   <div class="row no-gutter">
 
