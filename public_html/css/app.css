@@ -4860,6 +4860,24 @@ html * {
   color: #000;
   font-family: myFirstFOnt; }
 
+.price-start {
+  font-family: myFirstFont;
+  font-size: 2.5em;
+  text-align: center;
+  color: #FF0000; }
+
+.price-now {
+  font-family: myFirstFont;
+  font-size: 2.5em;
+  text-align: center;
+  color: #00FF00; }
+
+.number-buy {
+  font-family: myFirstFont;
+  font-size: 2.5em;
+  text-align: center;
+  color: #000; }
+
 #defaultCountdown {
   width: 240px;
   height: 45px; }

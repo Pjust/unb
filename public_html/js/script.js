@@ -1,7 +1,7 @@
 var bardata = [];
 
-for (var i=0; i < 50; i++) {
-    bardata.push(Math.round(Math.random()*100)+10)
+for (var i=0; i < 100; i++) {
+    bardata.push(Math.round(Math.random()*500)+10)
 }
 
 bardata.sort(function compareNumbers(a,b) {
@@ -18,8 +18,8 @@ var height = 400 - margin.top - margin.bottom,
 var tempColor;
 
 var colors = d3.scale.linear()
-.domain([0, bardata.length*.33, bardata.length*.66, bardata.length])
-.range(['#B58929','#C61C6F', '#268BD2', '#85992C'])
+.domain([0, bardata.length*.25, bardata.length*.50, bardata.length*.75, bardata.length])
+.range(['#FF0000','#FFFF00', '#FFFF00','#7FFF00', '#00FF00'])
 
 var yScale = d3.scale.linear()
         .domain([0, d3.max(bardata)])
@@ -36,7 +36,6 @@ var tooltip = d3.select('body').append('div')
         .style('opacity', 0)
 
 var myChart = d3.select('#chart').append('svg')
-    .style('background', '#FFF')
     .attr('preserveAspectRatio', 'xMinYmin meet')
     .attr('viewBox', '0 0 550 400')
     .attr('class', 'svg-content')

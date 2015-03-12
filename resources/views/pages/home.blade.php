@@ -29,14 +29,14 @@
         <div class="col-sm-3 inviborder">
           <h2 style="font-weight: 200">Start Pris</h2>
             <div class="smallbox shadow">
-
+                <p class="price-start">500 DKR</p>
             </div>
         </div>
 
         <div class="col-sm-3 inviborder">
           <h2 style="font-weight: 200">Pris Nu</h2>
             <div class="smallbox shadow">
-              
+              <p class="price-now">300 DKR</p>
             </div>
         </div>
         <div class="col-sm-3 inviborder">
@@ -48,7 +48,7 @@
          <div class="col-sm-3 inviborder">
           <h2 style="font-weight: 200">Antal Køb</h2>
             <div class="smallbox shadow">
-
+              <p class="number-buy">200</p>
             </div>
         </div>
   </div>
