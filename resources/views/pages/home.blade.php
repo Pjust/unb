@@ -15,8 +15,8 @@
   	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </div>
 
-  <div class="col-md-6">
-	   <img src="{{ asset('/images/graph.jpg') }}" class="img-responsive" style="height:425px;">
+  <div class="col-md-6" style="padding:25px; 0 0 15px;">
+	  <div id="chart" class="svg-container"></div>
      <button class="btn btn-success btn-block" style="">Køb Nu</button>
   </div>
 

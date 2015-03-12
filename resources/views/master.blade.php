@@ -3,21 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <title>United Buyers</title>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,400' rel='stylesheet' type='text/css'>
-  <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
-  <script src="js/app.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,400' rel='stylesheet' type='text/css'>
+<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
+<script src="js/app.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="/countdown/jquery.countdown.css">
-<style type="text/css">
-#defaultCountdown { width: 240px; height: 45px; }
-</style>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="/countdown/jquery.plugin.js"></script>
 <script src="/countdown/jquery.countdown.js"></script>
-
+  <script src="/js/d3.js"></script>
+  <script src="/js/d3.min.js"></script>
 </head>
-
 <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -66,3 +62,5 @@ $(function () {
   $('#year').text(austDay.getFullYear());
 });
 </script>
+
+<script src="/js/script.js"></script>
