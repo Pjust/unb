@@ -17,9 +17,14 @@ var height = 400 - margin.top - margin.bottom,
 
 var tempColor;
 
+
+// var colors = d3.scale.linear()
+// .domain([0, bardata.length*.33, bardata.length*.66, bardata.length])
+// .range(['#B58929','#C61C6F', '#268BD2', '#85992C'])
+
 var colors = d3.scale.linear()
-.domain([0, bardata.length*.25, bardata.length*.50, bardata.length*.75, bardata.length])
-.range(['#FF0000','#FFFF00', '#FFFF00','#7FFF00', '#00FF00'])
+.domain([0,  bardata.length])
+.range(['#B2B2B2','#009900'])
 
 var yScale = d3.scale.linear()
         .domain([0, d3.max(bardata)])

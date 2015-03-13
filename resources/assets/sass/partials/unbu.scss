@@ -47,10 +47,10 @@ html * {
 
 .highlight{
   font-family: myFirstFont;
-    font-size: 3.438em;
-    text-align:center;
-    margin-top:50px;
-    color:green;
+  font-size: 3.438em;
+  text-align:center;
+  margin-top:50px;
+  color:#009900;
 }
 
 .highlight-1 {
@@ -58,18 +58,31 @@ html * {
   font-family:myFirstFOnt;    
 } 
 
+.highlight-2 {
+  color:green;
+  font-family:myFirstFOnt;    
+} 
+
+.highlight-4{
+  font-family: myFirstFont;
+  font-size: 3.438em;
+  text-align:center;
+  margin-top:50px;
+  color:#000;
+}
+
 .price-start{
   font-family: myFirstFont;
   font-size: 2.5em;
   text-align:center;
-  color:#FF0000;
+  color:#B2B2B2;
 }
 
 .price-now{
   font-family: myFirstFont;
   font-size: 2.5em;
   text-align:center;
-  color:#00FF00;
+  color:#009900;
 }
 
 .number-buy{
@@ -78,6 +91,26 @@ html * {
   text-align:center;
   color:#000;
 }
+
+ul li a {
+  -moz-box-shadow:    inset 0 0 0 #7E7E7E;
+  -webkit-box-shadow: inset 0 0 0 #7E7E7E;
+  box-shadow:         inset 0 0 0 #7E7E7E;
+
+}
+
+
+ul li a:hover{
+  -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+  -moz-box-shadow:    inset 0 0 20px #1E1E1E;
+  -webkit-box-shadow: inset 0 0 20px #1E1E1E;
+  box-shadow:         inset 0 0 20px #1E1E1E; 
+}
+
+
 
 //* COUNTER *//
 

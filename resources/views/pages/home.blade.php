@@ -42,7 +42,7 @@
         <div class="col-sm-3 inviborder">
           <h2 style="font-weight: 200">Resterende Tid</h2>
             <div class="smallbox shadow">
-              <div style="width: 100%; height: 100%; " id="defaultCountdown"></div>
+              <div  style="width: 100%; height: 100%; " id="defaultCountdown"></div>
             </div>
         </div>
          <div class="col-sm-3 inviborder">
@@ -102,11 +102,50 @@
         </div>
   </div>
 
+  {{-- COMING SALES --}}
+
   <div class="row">
   <p class="highlight">KOMMENDE <span class="highlight-1">VARER</span> </p>
-</div>
+  </div>
 
   <div class="row no-gutter">
+
+        <div class="col-sm-3 inviborder">
+          <h2 style="font-weight: 200">Weber Grill</h2>
+            <div class=" medbox shadow">
+              <img src="{{ asset('/images/weber.jpg') }}" class="img-responsive" >
+            </div>
+        </div>
+
+        <div class="col-sm-3 inviborder">
+          <h2 style="font-weight: 200">Sonos Højtaler</h2>
+            <div class="medbox shadow">
+              <img src="{{ asset('/images/sonos.jpg') }}" class="img-responsive" style="padding-top:50px" >
+            </div>
+        </div>
+
+        <div class="col-sm-3 inviborder">
+          <h2 style="font-weight: 200">RayBan Solbriller</h2>
+            <div class="medbox shadow">
+               <img src="{{ asset('/images/rayban.jpg') }}" class="img-responsive" style="padding-top:50px"  >
+            </div>
+        </div>
+
+         <div class="col-sm-3 inviborder">
+          <h2 style="font-weight: 200">Id Mudvax</h2>
+            <div class="medbox shadow">
+              <img src="{{ asset('/images/ID.jpg') }}" class="img-responsive"  >
+            </div>
+        </div>
+  </div>
+
+   {{-- COMING SALES --}}
+
+  <div class="row">
+  <p class="highlight-4">VARER MED <span class="highlight-2">MANGE STEMMER</span> </p>
+  </div>
+
+  <div class="row no-gutter" style="padding-bottom:100px;">
 
         <div class="col-sm-3 inviborder">
           <h2 style="font-weight: 200">Weber Grill</h2>

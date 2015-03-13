@@ -36,8 +36,7 @@
           <li><a href="#">Betingelser</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Login</a></li>
-          <li><a href="#">Opret Bruger</a></li>
+          <li><button type="button" class="btn btn-default navbar-btn">Log ind</button></li>
         </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container -->
