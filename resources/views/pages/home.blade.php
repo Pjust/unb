@@ -3,9 +3,9 @@
 @section('content')
 
 {{-- Top Sale --}}
-<div class="row" style=" box-shadow: 0px 0px 5px #888888; background:#FFF;">
+<div class="row" style=" box-shadow: 0px 0px 5px #888888; background:#FFF; margin-top:10px; ">
 
-  <div class="col-md-6">
+  <div class="col-md-6" >
   	<img src="{{ asset('/images/converse.jpg') }}" class="img-responsive">
   	<p style="width:100%; text-align:justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

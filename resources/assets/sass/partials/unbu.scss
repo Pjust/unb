@@ -41,8 +41,8 @@ html * {
 //* SPECIAL FONT *//
 
 @font-face {
-    font-family: myFirstFont;
-    src: url(YanoneKaffeesatz-Bold.otf);
+  font-family: myFirstFont;
+  src: url(YanoneKaffeesatz-Bold.otf);
 }
 
 .highlight{
@@ -96,21 +96,17 @@ ul li a {
   -moz-box-shadow:    inset 0 0 0 #7E7E7E;
   -webkit-box-shadow: inset 0 0 0 #7E7E7E;
   box-shadow:         inset 0 0 0 #7E7E7E;
-
 }
-
 
 ul li a:hover{
   -webkit-transition: all 0.6s ease-out;
-    -moz-transition: all 0.6s ease-out;
-    -o-transition: all 0.6s ease-out;
-    transition: all 0.6s ease-out;
-  -moz-box-shadow:    inset 0 0 20px #1E1E1E;
-  -webkit-box-shadow: inset 0 0 20px #1E1E1E;
-  box-shadow:         inset 0 0 20px #1E1E1E; 
+  -moz-transition: all 0.6s ease-out;
+  -o-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out;
+  -moz-box-shadow:    inset 0 0 30px #dfdfdf;
+  -webkit-box-shadow: inset 0 0 30px #dfdfdf;
+  box-shadow:         inset 0 0 30px #dfdfdf; 
 }
-
-
 
 //* COUNTER *//
 
@@ -130,4 +126,14 @@ display: inline-block;
 position: absolute;
 top: 0;
 left: 0;
+}
+
+.navbar  li  a {
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.navbar-btn {
+  margin-top: 13px;
+  margin-bottom: 13px;
 }
