@@ -3,7 +3,7 @@
 @section('content')
 
 {{-- Top Sale --}}
-<div class="row" style=" box-shadow: 0px 0px 5px #888888; background:#FFF; margin-top:10px; ">
+<div class="row" style=" box-shadow: 0px 0px 5px #888888; background:#FFF; margin-top:20px; ">
 
   <div class="col-md-6" >
   	<img src="{{ asset('/images/converse.jpg') }}" class="img-responsive">

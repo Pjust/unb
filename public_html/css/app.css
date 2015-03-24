@@ -4921,3 +4921,6 @@ ul li a:hover {
 .navbar-btn {
   margin-top: 13px;
   margin-bottom: 13px; }
+
+.navbar-default {
+  border-color: #cecece; }
