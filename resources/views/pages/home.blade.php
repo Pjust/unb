@@ -27,26 +27,26 @@
  <div class="row no-gutter">
 
         <div class="col-sm-3 inviborder">
-          <h2 style="font-weight: 200">Start Pris</h2>
+          <h2>Start Pris</h2>
             <div class="smallbox shadow">
                 <p class="price-start">500 DKR</p>
             </div>
         </div>
 
         <div class="col-sm-3 inviborder">
-          <h2 style="font-weight: 200">Pris Nu</h2>
+          <h2>Pris Nu</h2>
             <div class="smallbox shadow">
               <p class="price-now">300 DKR</p>
             </div>
         </div>
         <div class="col-sm-3 inviborder">
-          <h2 style="font-weight: 200">Resterende Tid</h2>
+          <h2>Resterende Tid</h2>
             <div class="smallbox shadow">
               <div  style="width: 100%; height: 100%; " id="defaultCountdown"></div>
             </div>
         </div>
          <div class="col-sm-3 inviborder">
-          <h2 style="font-weight: 200">Antal Køb</h2>
+          <h2>Antal Køb</h2>
             <div class="smallbox shadow">
               <p class="number-buy">200</p>
             </div>
@@ -62,7 +62,7 @@
  <div class="row no-gutter">
 
         <div class="col-sm-3 inviborder">
-          <h2 style="font-weight: 200">Weber Grill</h2>
+          <h2>Weber Grill</h2>
             <div class=" medbox shadow">
               <img src="{{ asset('/images/weber.jpg') }}" class="img-responsive" >
             </div>
@@ -72,7 +72,7 @@
         </div>
 
         <div class="col-sm-3 inviborder">
-          <h2 style="font-weight: 200">Sonos Højtaler</h2>
+          <h2>Sonos Højtaler</h2>
             <div class="medbox shadow">
               <img src="{{ asset('/images/sonos.jpg') }}" class="img-responsive" style="padding-top:50px" >
             </div>
@@ -82,7 +82,7 @@
         </div>
 
         <div class="col-sm-3 inviborder">
-          <h2 style="font-weight: 200">RayBan Solbriller</h2>
+          <h2>RayBan Solbriller</h2>
             <div class="medbox shadow">
                <img src="{{ asset('/images/rayban.jpg') }}" class="img-responsive" style="padding-top:50px"  >
             </div>
@@ -92,7 +92,7 @@
         </div>
 
          <div class="col-sm-3 inviborder">
-          <h2 style="font-weight: 200">Id Mudvax</h2>
+          <h2>Id Mudvax</h2>
             <div class="medbox shadow">
               <img src="{{ asset('/images/ID.jpg') }}" class="img-responsive"  >
             </div>
@@ -111,28 +111,28 @@
   <div class="row no-gutter">
 
         <div class="col-sm-3 inviborder">
-          <h2 style="font-weight: 200">Weber Grill</h2>
+          <h2>Weber Grill</h2>
             <div class=" medbox shadow">
               <img src="{{ asset('/images/weber.jpg') }}" class="img-responsive" >
             </div>
         </div>
 
         <div class="col-sm-3 inviborder">
-          <h2 style="font-weight: 200">Sonos Højtaler</h2>
+          <h2>Sonos Højtaler</h2>
             <div class="medbox shadow">
               <img src="{{ asset('/images/sonos.jpg') }}" class="img-responsive" style="padding-top:50px" >
             </div>
         </div>
 
         <div class="col-sm-3 inviborder">
-          <h2 style="font-weight: 200">RayBan Solbriller</h2>
+          <h2>RayBan Solbriller</h2>
             <div class="medbox shadow">
                <img src="{{ asset('/images/rayban.jpg') }}" class="img-responsive" style="padding-top:50px"  >
             </div>
         </div>
 
          <div class="col-sm-3 inviborder">
-          <h2 style="font-weight: 200">Id Mudvax</h2>
+          <h2>Id Mudvax</h2>
             <div class="medbox shadow">
               <img src="{{ asset('/images/ID.jpg') }}" class="img-responsive"  >
             </div>
@@ -148,28 +148,28 @@
   <div class="row no-gutter" style="padding-bottom:100px;">
 
         <div class="col-sm-3 inviborder">
-          <h2 style="font-weight: 200">Weber Grill</h2>
+          <h2>Weber Grill</h2>
             <div class=" medbox shadow">
               <img src="{{ asset('/images/weber.jpg') }}" class="img-responsive" >
             </div>
         </div>
 
         <div class="col-sm-3 inviborder">
-          <h2 style="font-weight: 200">Sonos Højtaler</h2>
+          <h2>Sonos Højtaler</h2>
             <div class="medbox shadow">
               <img src="{{ asset('/images/sonos.jpg') }}" class="img-responsive" style="padding-top:50px" >
             </div>
         </div>
 
         <div class="col-sm-3 inviborder">
-          <h2 style="font-weight: 200">RayBan Solbriller</h2>
+          <h2>RayBan Solbriller</h2>
             <div class="medbox shadow">
                <img src="{{ asset('/images/rayban.jpg') }}" class="img-responsive" style="padding-top:50px"  >
             </div>
         </div>
 
          <div class="col-sm-3 inviborder">
-          <h2 style="font-weight: 200">Id Mudvax</h2>
+          <h2>Id Mudvax</h2>
             <div class="medbox shadow">
               <img src="{{ asset('/images/ID.jpg') }}" class="img-responsive"  >
             </div>

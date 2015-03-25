@@ -4924,3 +4924,9 @@ ul li a:hover {
 
 .navbar-default {
   border-color: #cecece; }
+
+.dropdown-menu {
+  background-color: #f8f8f8; }
+
+h2 {
+  font-weight: 200; }

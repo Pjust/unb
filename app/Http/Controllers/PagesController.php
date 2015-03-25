@@ -12,14 +12,30 @@ class PagesController extends Controller {
 		return view('pages.home');
 	}
 
-	public function about()
+	public function hvaderunbu()
 	{
-		return view('pages.about');
+		return view('pages.hvaderunbu');
 	}
 
-	public function test()
+	public function saadanvirkerunbu()
 	{
-		return view('pages.test');
+		return view('pages.saadanvirkerunbu');
 	}
+
+	public function kontakt()
+	{
+		return view('pages.kontakt');
+	}
+
+	public function anmeldelser()
+	{
+	return view('pages.anmeldelser');
+	}
+
+	public function fordele()
+	{
+	return view('pages.fordele');
+	}
+
 
 }

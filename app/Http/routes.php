@@ -13,9 +13,17 @@
 
 get('/', 'PagesController@index');
 
-get('about', 'PagesController@about');
+get('Hvad-Er-Unbu', 'PagesController@hvaderunbu');
 
 get('test', 'PagesController@test');
+
+get('Sådan-Virker-Unbu', 'PagesController@saadanvirkerunbu');
+
+get('Kontakt', 'PagesController@kontakt');
+
+get('Anmeldelser', 'PagesController@anmeldelser');
+
+get('Fordele', 'PagesController@fordele');
 
 // Route::get('/', 'WelcomeController@index');
 
